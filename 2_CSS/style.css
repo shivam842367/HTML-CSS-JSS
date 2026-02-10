@@ -1,0 +1,79 @@
+/* element.css*/
+h1{color:darkslateblue}
+h2{color:darkslateblue}
+h3{color:darkslateblue}
+h4{color:darkslateblue}
+h5{color:darkslateblue}
+h6{color:darkslateblue}
+a{
+    color:darkcyan
+}
+p{
+    color:green
+}
+li{
+    list-style-type: square;
+}
+
+/* id selector or class selector */
+
+.special{
+    color:orange;
+    font-style: italic;
+    font-weight: bold;
+}
+span.special,ol{
+    color:blue;
+    font-weight: bold;
+}
+li em{
+    color:red;
+    font-weight:lighter
+}
+
+h1+p{
+    color:red;
+    font-size:x-large;
+    font-size:50px;
+}
+
+/*pseudo class selector*/
+
+a:hover{
+    color:saddlebrown;
+    text-decoration: none;
+}
+
+body,h1+span,.spe{
+    color:whitesmoke;
+    padding: 10px;
+}
+
+/* id selector*/
+
+#head3{
+    color:chartreuse
+}
+
+small#one{
+    background-color: black;
+}
+
+/*ATTRIBBUTE SELECTOR*/
+
+li[class]{
+    font-size: x-large;
+}
+
+li[class=a]{
+    font-size:x-small
+}
+
+li[class~=a]{
+    color:magenta
+}
+
+/* Every thing selector*/
+*{
+    background-color: lightslategray;
+}
